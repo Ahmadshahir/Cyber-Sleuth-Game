@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Sleuth Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Cyber Sleuth</h1>
+    <p id="game-description">Your mission is to solve cybercrimes by analyzing clues and interrogating witnesses and suspects.</p>
+    <button id="start-button">Start Investigation</button>
+
+    <div id="game" style="display: none;">
+        <p id="crime"></p>
+        <p id="witnesses"></p>
+        <input type="text" id="guess" placeholder="Enter your guess">
+        <button onclick="submitGuess()">Submit Guess</button>
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
